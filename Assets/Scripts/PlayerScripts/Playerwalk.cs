@@ -10,16 +10,21 @@ public class Playerwalk : MonoBehaviour
     [SerializeField] float moveSpeed;
     [SerializeField] private Rigidbody2D rb;
     bool facingRight = true;
+    private Vector2 playerMove;
 
     //Player Jump
     private float jumpPower = 5f;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
+    //Player animator
+    private Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>(); 
+        anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -29,38 +34,41 @@ public class Playerwalk : MonoBehaviour
 
         horizontal = Input.GetAxisRaw("Horizontal");
 
+        anim.SetFloat("XInput", Mathf.Abs(horizontal));
+        anim.SetBool("IsWalking", Mathf.Abs(horizontal) > 0);
 
 
-        if(horizontal < 0 && facingRight)
+        if (horizontal < 0)
         {
-            Flip();
+            facingRight = false;
         }
-        else if(horizontal > 0 && !facingRight)
+        else if (horizontal > 0)
         {
-            Flip();
+            facingRight = true;
         }
 
+        anim.SetBool("FaceingRight", facingRight);
 
-        if(Input.GetKey("w") && IsGrounded())
+        if (Input.GetKey("w") && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
         }
 
         //if (Input.GetKey("w"))
         //{
-            //Jump animation
+        //Jump animation
         //}
 
     }
 
     public void Jump(InputAction.CallbackContext context)
     {
-        if(context.performed && IsGrounded())
+        if (context.performed && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
         }
 
-        if(context.canceled && rb.velocity.y > 0f)
+        if (context.canceled && rb.velocity.y > 0f)
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
@@ -69,14 +77,6 @@ public class Playerwalk : MonoBehaviour
     private bool IsGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
-    }
-
-    void Flip()
-    {
-        facingRight = !facingRight;
-        Vector3 localScale = transform.localScale;
-        localScale.x *= -1f;
-        transform.localScale = localScale;
     }
 
     public void Move(InputAction.CallbackContext context)

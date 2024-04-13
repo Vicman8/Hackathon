@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7ed195f0c2d7ae04a98e4456e72ac82f
+guid: 2726322012d39ab46b3bf74e08dcc0ec
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,55 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Coin_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28d970876a145994d892cd7ad713fe3d
-      internalID: -444948368
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Coin_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec7dc6df1a81f4e459fe81d5c2adef67
-      internalID: -873841718
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Coin_2
+      name: Hackathon Dog (idle)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 64
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3eafc253c882d944ebf93669b8ae2504
-      internalID: 544490358
+      spriteID: 24f94c1364c90e2418e5d6c74f6e04af
+      internalID: -864403587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Coin_3
+      name: Hackathon Dog (idle)_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 64
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +152,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de97a2ef34cbaf34283a68ea5b1fb528
-      internalID: 966972021
+      spriteID: b08517c49de58174190670abeda36ed7
+      internalID: -894803363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Coin_4
+      name: Hackathon Dog (idle)_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090019b95cce66b4d84b5e6da82d39ef
+      internalID: 1731289446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hackathon Dog (idle)_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e0478915f29f14ea9ec6cb91f5f3a7
+      internalID: -1621487269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hackathon Dog (idle)_4
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,8 +215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d69f5190a03fde948826fb1295baabfc
-      internalID: 208670906
+      spriteID: f4cbd8bc637f9ba458fc36aec1103eb0
+      internalID: -1066490952
       vertices: []
       indices: 
       edges: []
@@ -232,11 +232,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Coin_0: -444948368
-      Coin_2: 544490358
-      Coin_1: -873841718
-      Coin_3: 966972021
-      Coin_4: 208670906
+      Hackathon Dog (idle)_0: -864403587
+      Hackathon Dog (idle)_1: -894803363
+      Hackathon Dog (idle)_2: 1731289446
+      Hackathon Dog (idle)_3: -1621487269
+      Hackathon Dog (idle)_4: -1066490952
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

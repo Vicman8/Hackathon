@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7ed195f0c2d7ae04a98e4456e72ac82f
+guid: b522fedc06d379b4ebe6862825f21ed1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Coin_0
+      name: accessible_sign_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 64
-        height: 64
+        y: 90
+        width: 45
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28d970876a145994d892cd7ad713fe3d
-      internalID: -444948368
+      spriteID: 3ec4c0774d0a52d43ac1ec666df4988a
+      internalID: -424310958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Coin_1
+      name: accessible_sign_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 64
+        x: 45
+        y: 90
+        width: 45
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec7dc6df1a81f4e459fe81d5c2adef67
-      internalID: -873841718
+      spriteID: 2a7ea62bb1b3b444e9538a8a56dd28ab
+      internalID: -478988302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Coin_2
+      name: accessible_sign_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 64
-        height: 64
+        y: 45
+        width: 45
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3eafc253c882d944ebf93669b8ae2504
-      internalID: 544490358
+      spriteID: f800375ed2977774f9a77cb5b1a28457
+      internalID: 1743334766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Coin_3
+      name: accessible_sign_3
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
+        x: 45
+        y: 45
+        width: 45
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de97a2ef34cbaf34283a68ea5b1fb528
-      internalID: 966972021
+      spriteID: 602543662a49a674bbd1f2b64d738096
+      internalID: 651946191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Coin_4
+      name: accessible_sign_4
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 45
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,8 +215,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d69f5190a03fde948826fb1295baabfc
-      internalID: 208670906
+      spriteID: 2e774ae44a6cca640953453cd20a69ae
+      internalID: 1497932275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accessible_sign_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d9442e269fc0b40ae9594677064bb8
+      internalID: -275262003
       vertices: []
       indices: 
       edges: []
@@ -232,11 +253,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Coin_0: -444948368
-      Coin_2: 544490358
-      Coin_1: -873841718
-      Coin_3: 966972021
-      Coin_4: 208670906
+      accessible_sign_1: -478988302
+      accessible_sign_4: 1497932275
+      accessible_sign_2: 1743334766
+      accessible_sign_0: -424310958
+      accessible_sign_5: -275262003
+      accessible_sign_3: 651946191
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

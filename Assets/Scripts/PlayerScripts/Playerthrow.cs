@@ -5,6 +5,7 @@ using UnityEngine;
 public class Playerthrow : MonoBehaviour
 {
     [SerializeField] private GameObject coinPrefab;
+    
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
